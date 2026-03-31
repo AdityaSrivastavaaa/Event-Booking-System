@@ -1,0 +1,43 @@
+{
+  "name": "event-booking-system",
+  "version": "1.0.0",
+  "description": "Mini Event Booking System with Node.js, Express, MySQL, Sequelize, and Swagger",
+  "main": "app.js",
+  "type": "commonjs",
+
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "prod": "NODE_ENV=production node app.js"
+  },
+
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "sequelize",
+    "event-booking",
+    "api",
+    "swagger"
+  ],
+
+  "author": "Aditya Srivastava",
+  "license": "ISC",
+
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "sequelize": "^6.37.8",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+
+  "engines": {
+    "node": ">=18"
+  }
+}
